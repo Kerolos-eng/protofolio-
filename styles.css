@@ -1,0 +1,135 @@
+/* Universal selector: reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* ---------- Header ---------- */
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+.subtitle {
+    color: #ccc;
+    font-size: 14px;
+    margin: 4px 0 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- Sections ---------- */
+section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+/* ---------- Projects ---------- */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.project-card {
+    background-color: white;
+    width: 230px;
+    padding: 14px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.project-card h3 {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.project-card p {
+    font-size: 13px;
+}
+
+/* ---------- Contact form ---------- */
+.contact-form {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.contact-form textarea {
+    height: 90px;
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #444;
+}
+
+/* ---------- Footer ---------- */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
